@@ -1,0 +1,26 @@
+Peter:
+  id: 1
+  first_name: Peter
+  last_name: Phillips
+  email: peter@phillips.com
+  role: :admin
+  created_at: <%= Date.parse("2019-01-01").beginning_of_day %>
+  updated_at: <%= Date.parse("2019-01-01").beginning_of_day %>
+
+John:
+  id: 2
+  first_name: John
+  last_name: Smith
+  email: john@smith.com
+  role: :guest
+  created_at: <%= Date.parse("2019-01-01").beginning_of_day %>
+  updated_at: <%= Date.parse("2019-01-01").beginning_of_day %>
+
+Stephanie:
+  id: 3
+  first_name: Stephanie
+  last_name: O'Brien
+  email: stephanie@obrien.com
+  role: :manager
+  created_at: <%= Date.parse("2019-01-01").beginning_of_day %>
+  updated_at: <%= Date.parse("2019-01-01").beginning_of_day %>
